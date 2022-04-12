@@ -1,0 +1,86 @@
+{
+  "name": "kolibri-web-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@shopify/draggable": "^1.0.0-beta.8",
+    "@vue/composition-api": "^1.4.9",
+    "@vue/devtools-api": "^6.1.4",
+    "@vueuse/core": "^4.11.1",
+    "axios": "^0.26.1",
+    "clipboard": "^2.0.10",
+    "core-js": "^3.8.3",
+    "date-fns": "^1.28.2",
+    "escodegen": "^2.0.0",
+    "fontfaceobserver": "^2.1.0",
+    "frame-throttle": "^3.0.0",
+    "fuse.js": "^6.4.6",
+    "knuth-shuffle-seeded": "^1.0.6",
+    "lockr": "^0.9.0-beta.0",
+    "loglevel": "^1.8.0",
+    "process": "^0.11.10",
+    "query-ast": "^1.0.4",
+    "screenfull": "^6.0.1",
+    "shave": "^4.0.0",
+    "ua-parser-js": "^1.0.2",
+    "vue": "^2.6.14",
+    "vue-meta": "^1.5.0",
+    "vue-router": "^3.3.4",
+    "vuex": "^3.1.0",
+    "vuex-router-sync": "^5.0.0",
+    "xstate": "^4.31.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-config-vue": "^2.0.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^23.3.0",
+    "eslint-plugin-kolibri": "0.15.0-dev.4",
+    "eslint-plugin-vue": "^7.3.0",
+    "intl": "^1.2.4",
+    "kolibri-constants": "0.1.36",
+    "kolibri-design-system": "https://github.com/learningequality/kolibri-design-system#v1.3.0",
+    "node-sass": "^7.0.1",
+    "prettier": "^1.18.2",
+    "sass-loader": "^12.6.0",
+    "scss-parser": "^1.0.5",
+    "vue-intl": "3.0.0",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "plugins": ["import", "kolibri"],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {
+    },
+    "globals": {
+      "__copyrightYear": "readonly",
+      "__version": "readonly"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
