@@ -44,6 +44,9 @@ const coreApp = {
   version: __version,
 };
 
+// FIXME: WTF.
+window.kolibriCoreAppGlobal = coreApp;
+
 // set up theme
 initializeTheme();
 

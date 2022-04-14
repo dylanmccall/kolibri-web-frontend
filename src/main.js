@@ -4,13 +4,17 @@
  */
 
 import Vue from 'vue'
-import App from './App.vue'
 
-/* eslint-disable-next-line no-unused-vars */
-import kolibriCoreAppGlobal from '@/core/core-app/index.js'
+// core-app/index.js mounts the app instead.
+
+import coreApp from '@/core/core-app/index.js'
+window.kolibriCoreAppGlobal = coreApp;
 
 Vue.config.productionTip = false
 
-new Vue({
-  render: h => h(App),
-}).$mount('#app')
+// import App from './App.vue'
+import App from '@/learn/app'
+
+const app = new App();
+// FIXME: Constructing the app has side-effects; it mounts _itself_.
+console.log("APP", app);

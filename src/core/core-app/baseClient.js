@@ -14,6 +14,14 @@ export default function clientFactory(options) {
       // Do custom querystring stingifying to comma separate array params
       return qs.stringify(params, { arrayFormat: 'comma' });
     },
+    // FIXME: Evilly hard-code a base URL.
+    //        Instead, this should be in local state with some sane default.
+    //        Note that we will have trouble with CORS because Kolibri doesn't
+    //        expect this. I work around this locally by installing
+    //        <https://github.com/adamchainz/django-cors-headers> and then
+    //        changing Kolibri's default settings to include
+    //        `CORS_ALLOW_ALL_ORIGINS = True`.
+    baseURL: "http://localhost:8000",
     ...options,
   });
   client.interceptors.response.use(

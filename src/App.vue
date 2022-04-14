@@ -1,16 +1,14 @@
 <template>
-  <div id="app">
-    <SetupWizardIndex />
-  </div>
+  <LearnIndex />
 </template>
 
 <script>
-import SetupWizardIndex from '@/setup-wizard/views/SetupWizardIndex'
+import LearnIndex from '@/learn/views/LearnIndex'
 
 export default {
   name: 'App',
   components: {
-    SetupWizardIndex
+    LearnIndex
   }
 }
 </script>

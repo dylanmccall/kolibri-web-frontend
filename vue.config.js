@@ -9,8 +9,9 @@ const coreAliases = require('./build/apiSpecExportTools').coreAliases()
  * idea what its problem is.
  */
 const data = {
-    name: "kolibri-web-frontend",
-    version: "0.0~devel",
+  // name: "kolibri.plugins.learn.app",
+  name: "kolibri-web-frontend",
+  version: "0.0~devel",
 }
 
 module.exports = defineConfig({

@@ -4,7 +4,7 @@
  * @module kolibriModule
  */
 
-import coreApp from 'kolibri';
+import coreApp from '@/core/core-app/index.js';
 import urls from 'kolibri.urls';
 import setWebpackPublicPath from './utils/setWebpackPublicPath';
 
