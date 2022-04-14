@@ -2869,6 +2869,11 @@ deep-is@^0.1.3, deep-is@~0.1.3:
   resolved "https://registry.yarnpkg.com/deep-is/-/deep-is-0.1.4.tgz#a6f2dce612fadd2ef1f519b73551f17e85199831"
   integrity sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==
 
+deep-object-diff@^1.1.0:
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/deep-object-diff/-/deep-object-diff-1.1.7.tgz#348b3246f426427dd633eaa50e1ed1fc2eafc7e4"
+  integrity sha512-QkgBca0mL08P6HiOjoqvmm6xOAl2W6CT2+34Ljhg0OeFan8cwlcdq8jrLKsBBuUFAZLsN5b6y491KdKEoSo9lg==
+
 deepmerge@^1.5.2:
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-1.5.2.tgz#10499d868844cdad4fee0842df8c7f6f0c95a753"
@@ -3996,6 +4001,11 @@ hash-sum@^2.0.0:
   resolved "https://registry.yarnpkg.com/hash-sum/-/hash-sum-2.0.0.tgz#81d01bb5de8ea4a214ad5d6ead1b523460b0b45a"
   integrity sha512-WdZTbAByD+pHfl/g9QSsBIIwy8IT+EsPiKDs0KNX+zSHhdDLFKdZu0BQHljvO+0QI/BasbMSUa8wYNCZTvhslg==
 
+hashi@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/hashi/-/hashi-0.1.0.tgz#013ca5f355351239aa00ca4151a48e32518606ed"
+  integrity sha1-ATyl81U1EjmqAMpBUaSOMlGGBu0=
+
 he@^1.1.0, he@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
@@ -4788,10 +4798,10 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
-lockr@^0.9.0-beta.0:
-  version "0.9.0-beta.0"
-  resolved "https://registry.yarnpkg.com/lockr/-/lockr-0.9.0-beta.0.tgz#2d13863699a0b358fbe5b8b4d6c6af7913e655bb"
-  integrity sha512-/00iP8I+RJStGkExa8bW5yl1tIyxZvYS1eM5S8ze9D8A73QOxXMSE0lijF37b2HryyqzFJi7vS9LdurTX5e/CA==
+lockr@^0.8.4:
+  version "0.8.5"
+  resolved "https://registry.yarnpkg.com/lockr/-/lockr-0.8.5.tgz#ed021978dadc87afe8c8ec8bd50fce15f5a3d84e"
+  integrity sha512-PyWX+NYcJtk+12cARV5qaR0I2cfpHDplpOOI4KKoJtJufdnXo4sJPmfWhbZUAT5rCMgszzU0DovlSjEKp2u12A==
 
 lodash.debounce@^4.0.8:
   version "4.0.8"
